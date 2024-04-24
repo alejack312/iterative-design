@@ -9,7 +9,7 @@
 body {
   display: flex;
 
-  background-color: #ffefe8;
+  background-color: #fffbf9;
   color: black;
   /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
   font-weight: 300;
@@ -39,7 +39,7 @@ a {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 300;
-  font-size: 1.5em;
+  font-size: 1.3em;
   --link-color: #4394b2;
   text-align: justify;
 }
