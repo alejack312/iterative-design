@@ -1,15 +1,10 @@
-  <!-- TO RUN IN BROWSER:
-    1. Install vscode extension Name: open in `browser open-in-browser` by TechER
-    2. Right click html file and either run in default browser or another browser
-  -->
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Development</title>
+    <title>Iterative Design</title>
     <!-- import CSS styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Caveat:wght@400..700&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="styles.css" /> 
   </head>
 
@@ -18,54 +13,97 @@
     <div class="main-column">
       <div class="content">
         <header class="page-heading">
-          <h1 class="title">Development</h1>
-
+          <h1 class="title">Iterative Design: Uno Health</h1>
+          <h2>Group #18: Alejandro Jackson, Joe Maffa, Joshua Lim, Zyn Ang</h1>
           <nav class="menu">
             <ul>
               <li>
-                <a href="#part-one">Part 1: Competitive Analysis</a>
+                <a href="#part-one">Part 1: Introduction</a>
               </li>
-              <li><a href="#part-two">Part 2: Set-up </a></li>
-               <li><a href="#part-three">Part 3: Functionality </a></li>
+              <li><a href="#part-two">Part 2: Project Brief</a></li>
+              <li><a href="#part-three">Part 3: Sketches</a></li>
+              <li><a href="#part-four">Part 4: Low-fidelity Wireframes & Revisions</a></li>
+              <li><a href="#part-five">Part 5: Style Guide</a></li>
+              <li><a href="#part-six">Part 6: High-fidelity Prototype</a></li>
+              <li><a href="#part-seven">Part 7: Startup Presentation & Revisions</a></li>
+              <li><a href="#part-eight">Part 8: Conclusion</a></li>
             </ul>
           </nav>
         </header>
+        <div class="proj-list" id="part-one">
+          <h2 class="subheading" id="part-one">
+            Part 1: Introduction
+          </h2>
+          <p class="inner-text">
+            For this project, our group was matched with Uno Health, a startup that aims to increase access to Medicare by increasing the ease with which people can apply for Medicare savings.
+            Currently, this is a platform that targets a specific user base of people that are eligible for Medicare benefits, but are also technically literate enough to create an account and upload all of the necessary legal documents. However,
+            through user research, Uno has found that there is a large population of people that they could access if they allowed someone who is more comfortable with technology to upload the necessary documents on someone else's behalf. We were tasked with
+            designing a mobile interface to help reach this exact population. After reading a project brief, we engaged in the design process to add caregiver intervention into the member's standard flow, allowing a caregiver to create an account and, given proper consent, complete the application for someone else (who we refer to as the caree).
+            Over the course of sketches, low fidelity wireframes, and eventually a high fidelity Figma protoype, we iterated on this design, incorporating feedback from classmates, our professors, and Elise Livingston, a designer at Uno Health, in order to create a final product that we believe is a strong solution to the problem at hand. After developing our prototype,
+            we shared Loom walkthroughs with Elise and conducted a meeting where she gave us feedback that may inform future iterations of our design.
 
-        <div class="intro">
-          <div class="self-descrip">
-            <h2 class="subheading" id="part-one">
-              Part 1: Competitive Analysis
-            </h2>
+          </p>
 
-            <h3> 
-              Select at least 3 different websites with a favoriting 
-              function:
-            </h3>
-
-            <p class="inner-text">
-              
-            </p>
-
-           
-
-            <p class="inner-text">
-              
-            </p>
+        </div>
 
         <div class="proj-list" id="part-two">
-          <h2 class="subheading">Part 2: Set-up</h2>
-
-          <a href="research-match.vercel.app">
-            Deployed Site
-          </a>
-        </div>
-        <div class="proj-list" id="part-three">
-          <h2 class="subheading">Part 3: Functionality</h2>
-
+          <h2 class="subheading">Part 2: Project Brief</h2>
           <p class="inner-text">
-            
+            We started by reading our project brief to identify key problems that we were looking to solve. Namely, we tackled the task through two routes. First, we aimed to add a caregiver entry point to allow caregivers to check their caree's eligibility for Medicare benefits. Second, we wanted to add a caregiver account to the member portal that would connect the caree and caregiver and allow for communication
+            between the two of them to mutually work together to complete the application for Medicare benefits. In going through the brief, we marked up a <a target="_blank" href="https://docs.google.com/document/d/1pFMWn-4u-cRtbT4Dtp3y2Np-15KVWit1xV2-Rc7jw2g/edit">working copy</a> to centralize our thoughts and distilled important questions into our <a target="_blank" href="https://docs.google.com/document/u/1/d/17I6VJoiBmrdc7xXFZwONhK4MX_UU7SfcpDEf59pdl8c/edit?usp=sharing">public copy</a> 
+            for Elise to address. After receiving feedback and clarifying our task, we began our design process by creating sketches
           </p>
         </div>
+        <div class="proj-list" id="part-three">
+          <h2 class="subheading">Part 3: Sketches</h2>
+          <p class="inner-text">
+            To begin the design process, each of our group members completed two different end to end sketches of the user flow. This provided a starting point to brainstorm ideas for how we might solve the problem at hand. 
+            Specifically, this informed our decision to create a separate member portal for caregivers. We also workshopped ideas for how we can best ensure proper consent from the caree yet still offer a lot of control to the caregiver.
+            Finally, we thought about the best ways that we can offer safety nets in the case that caregivers or carees may not have access to the documents they need or are unsure of how to get. We then united key findings from our sketches into a low fidelity wireframe. 
+          </p>
+          <img class="image" src="/images/sample-sketch.png">
+          <h4>An example sketch. To see all of our sketches, see this <a target="_blank" href="https://docs.google.com/presentation/d/1gZKUdM9plS8VNiT5Ehn1jSbKu2o6Q6DIqgBhzPZ876k/edit#slide=id.p">slideshow</a>.</h3>
+        </div>
+        <div class="proj-list" id="part-four">
+          <h2 class="subheading">Part 4: Low-fidelity Wireframes & Revisions</h2> 
+          <!-- TODO: Include link to first wireframes  -->
+          <!-- TODO: Include link to Loom  -->
+          <!-- TODO: Include link to revised wireframes -->
+          <!-- TODO: information to include in handout but: design decisions->impact, feedback received, changes made in updated version -->
+
+        </div>
+        <div class="proj-list" id="part-five">
+          <h2 class="subheading">Part 5: Style Guide</h2> 
+          <p class="inner-text">
+            Before we began our high-fidelity prototype, we created a style guide in order to ensure that our design was consistent. 
+          </p> 
+          <!-- TODO: Include image -->
+          <h4><a target="_blank" href="https://www.figma.com/file/aMHx2LP2RbsXxn48Py9IKt/Uno-Health-Overview-(Working)?type=design&node-id=2457-3570&mode=design&t=Fa5eqzW7Zn1I1BVk-0">Visit our Style Guide on Figma</a></h4>
+        </div>
+        <div class="proj-list" id="part-six">
+          <h2 class="subheading">Part 6: High-fidelity Prototype</h2>  
+          <!-- TODO: Include link to high fidelity prototype -->
+          <!-- TODO: Maybe a gif of us clicking through the prototype? Seems gratuitous but could be nice -->
+          <!-- TODO: Include link to second Loom -->
+          <!-- TODO: Discussion of design choices (See handout) -->
+        </div>
+        <div class="proj-list" id="part-seven">
+          <h2 class="subheading">Part 7: Startup Presentation & Revisions</h2> 
+          <!-- TODO: Include recap of our meeting and key insights -->
+          <!-- TODO: include photos / discussion of how we addressed them for extra credit -->
+        </div>
+
+        <div class="proj-list" id="part-eight">
+          <h2 class="subheading">Part 8: Conclusion</h2>  
+          <p class="inner-text">
+            Over the course of this project, we were able to transform a project brief on a real problem that Uno Health is facing into a high-fidelity clickable prototype that offers a solution to the problem. 
+            Stepping through the entire design process from end-to-end, we gained first hand experience iterating on a design and incorporating actionable feedback from our peers and startup partner. In a future design sprint,
+            we'd like to keep building out our prototype to include animations that guide users seamlessly through the flow. Further, we'd love to test our prototype on end users to figure out where assumptions we made may have fallen short. Finally, 
+            keeping the caregiver stakeholder at the top of our minds, we'd imagine what the portal may look like after the point of application. How might caregivers continue to provide help to their carees throughout their time on Uno Health? Exploring this
+            route would allow us to continue realizing Uno's mission of lowering the barrier of entry to Medicare benefits for all those who are eligible.
+          </p>
+        </div>
+        
       </div>
     </div>
   </body>
