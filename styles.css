@@ -151,6 +151,7 @@ h4 {
 }
 
 .image img {
+  justify-self: center;
   width: 100%;
   height: auto;
   border: 2px black solid;
